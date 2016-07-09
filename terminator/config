@@ -1,0 +1,27 @@
+[global_config]
+  geometry_hinting = False
+  homogeneous_tabbar = False
+  scroll_tabbar = True
+  title_font = Terminus 9
+  title_use_system_font = False
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_darkness = 0.85
+    background_image = None
+    background_type = transparent
+    custom_command = TERM=xterm-256color /usr/bin/zsh -l
+    font = Terminus 9
+    icon_bell = False
+    show_titlebar = False
+    use_custom_command = True
+    use_system_font = False
